@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INK BY KAT — Tattoo Artist</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain-overlay" aria-hidden="true"></div>
+
+    <header class="header" id="header">
+        <a href="#" class="logo">INK BY KAT</a>
+        <nav class="nav" aria-label="Основная навигация">
+            <a href="#portfolio" data-section="portfolio">ПОРТФОЛИО</a>
+            <a href="#about" data-section="about">О МАСТЕРЕ</a>
+            <a href="#process" data-section="process">ПРОЦЕСС</a>
+            <a href="#contacts" data-section="contacts">КОНТАКТЫ</a>
+        </nav>
+        <a href="#contacts" class="btn-ghost">
+            <span class="btn-plus">+</span> ЗАПИСАТЬСЯ
+        </a>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" aria-label="Главный экран">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <!-- Абстрактный wordmark -->
+                    <h1 class="wordmark" aria-label="Ink by Kat">
+                        <span class="wordmark__line">
+                            <span class="wordmark__ink">INK</span>
+                            <span class="wordmark__rule" aria-hidden="true"></span>
+                        </span>
+                        <span class="wordmark__by">BY</span>
+                        <span class="wordmark__kat">KAT</span>
+                    </h1>
+
+                    <div class="hero-bottom">
+                        <div class="hero-copy">
+                            <p class="tagline serif-italic">Татуировки —<br>искусство на коже.</p>
+                            <p class="hero-sub">Индивидуальные эскизы · Екатеринбург</p>
+                        </div>
+                        <a href="#portfolio" class="btn-solid">
+                            ПЕРЕЙТИ В ГАЛЕРЕЮ
+                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="placeholder placeholder--hero" role="img" aria-label="Место для анимации или фото">
+                        <div class="placeholder__inner">
+                            <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+                            <span class="placeholder__label">АНИМАЦИЯ / ФОТО</span>
+                            <span class="placeholder__hint">Здесь будет визуал</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-scroll" aria-hidden="true">
+                <span>SCROLL</span>
+                <span class="hero-scroll__line"></span>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="section-header">
+                <div class="section-header__left">
+                    <h2 class="serif-display">SELECTED<br>WORKS</h2>
+                    <span class="counter serif-display">01 / 06</span>
+                </div>
+                <div class="section-header__right">
+                    <p class="section-note">Избранные работы · fine line &amp; ornamental</p>
+                    <a href="#" class="link-arrow">
+                        БОЛЬШЕ РАБОТ
+                        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-item--tall">
+                    <div class="placeholder" role="img" aria-label="Работа 01">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">01</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item bento-item--wide">
+                    <div class="placeholder" role="img" aria-label="Работа 02">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">02</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="placeholder" role="img" aria-label="Работа 03">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">03</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="placeholder" role="img" aria-label="Работа 04">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">04</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item bento-item--tall">
+                    <div class="placeholder" role="img" aria-label="Работа 05">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">05</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="placeholder" role="img" aria-label="Работа 06">
+                        <div class="placeholder__inner">
+                            <span class="placeholder__num">06</span>
+                            <span class="placeholder__label">WORK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
+            <div class="about-image">
+                <div class="placeholder placeholder--about" role="img" aria-label="Фото мастера или процесса">
+                    <div class="placeholder__inner">
+                        <i class="fa-regular fa-user" aria-hidden="true"></i>
+                        <span class="placeholder__label">ФОТО МАСТЕРА</span>
+                        <span class="placeholder__hint">Портрет / процесс</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="subtitle">О МАСТЕРЕ</span>
+                <h2 class="serif-display">Екатерина</h2>
+                <p class="text-desc">Художественное образование, индивидуальный подход и любовь к деталям. Создаю эскизы, которые подчеркивают вашу индивидуальность.</p>
+                <p class="text-desc text-desc--secondary">Работаю в направлениях fine line, ornamental и blackwork. Каждый сеанс — спокойный диалог и внимание к мелочам.</p>
+                <a href="#" class="link-arrow">
+                    УЗНАТЬ БОЛЬШЕ
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fa-regular fa-gem line-icon" aria-hidden="true"></i>
+                        <span>Индивидуальные<br>эскизы</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-wand-magic-sparkles line-icon" aria-hidden="true"></i>
+                        <span>Комфортный<br>сеанс</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-shield-halved line-icon" aria-hidden="true"></i>
+                        <span>Стерильность<br>и безопасность</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS -->
+        <section id="process" class="process-section">
+            <div class="process-intro">
+                <h2 class="serif-display">КАК ПРОХОДИТ<br>СЕАНС?</h2>
+                <p>От идеи до готовой татуировки — 4 простых шага</p>
+                <a href="#contacts" class="link-arrow link-arrow--light">
+                    ЗАПИСАТЬСЯ
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-top">
+                        <i class="fa-regular fa-comment-dots line-icon" aria-hidden="true"></i>
+                        <span class="step-num">01</span>
+                    </div>
+                    <h3>Обсуждение идеи</h3>
+                    <p class="step-desc">Рассказываете задумку — вместе уточняем стиль, размер и расположение.</p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <i class="fa-solid fa-pencil line-icon" aria-hidden="true"></i>
+                        <span class="step-num">02</span>
+                    </div>
+                    <h3>Эскиз и подбор стиля</h3>
+                    <p class="step-desc">Готовлю индивидуальный эскиз и согласовываем детали перед сеансом.</p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <i class="fa-solid fa-pen-nib line-icon" aria-hidden="true"></i>
+                        <span class="step-num">03</span>
+                    </div>
+                    <h3>Татуировка</h3>
+                    <p class="step-desc">Спокойная атмосфера, стерильность и внимание к комфорту на протяжении всего процесса.</p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <i class="fa-regular fa-heart line-icon" aria-hidden="true"></i>
+                        <span class="step-num">04</span>
+                    </div>
+                    <h3>Уход</h3>
+                    <p class="step-desc">Даю рекомендации по заживлению и отвечаю на вопросы после сеанса.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacts" class="footer">
+        <div class="footer-info">
+            <h2 class="serif-display">Запись на сеанс</h2>
+            <p>Напишите мне в Telegram или оставьте заявку</p>
+            <div class="socials">
+                <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <a href="#" class="btn-pill">
+            ЗАПИСАТЬСЯ
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        
+        <div class="footer-address">
+            <i class="fa-solid fa-location-dot line-icon" aria-hidden="true"></i>
+            <p>Екатеринбург<br><span>5 минут от метро Уралмаш</span></p>
+        </div>
+
+        <div class="footer-bottom">
+            <span class="footer-copy">© 2026 Ink by Kat</span>
+            <span class="footer-note">Все эскизы индивидуальны</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
